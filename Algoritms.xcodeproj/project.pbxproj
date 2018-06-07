@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA94C4220C9C84500289D95 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA94C4120C9C84500289D95 /* Stack.swift */; };
+		DDA94C4420C9C85300289D95 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA94C4320C9C85300289D95 /* Queue.swift */; };
 		DDB9FD4320A4511200E3521E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9FD4220A4511200E3521E /* AppDelegate.swift */; };
 		DDB9FD4520A4511200E3521E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9FD4420A4511200E3521E /* ViewController.swift */; };
 		DDB9FD4820A4511200E3521E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB9FD4620A4511200E3521E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDA94C4120C9C84500289D95 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		DDA94C4320C9C85300289D95 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DDB9FD3F20A4511200E3521E /* Algoritms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algoritms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB9FD4220A4511200E3521E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDB9FD4420A4511200E3521E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				DDB9FD4220A4511200E3521E /* AppDelegate.swift */,
 				DDB9FD4420A4511200E3521E /* ViewController.swift */,
+				DDA94C4120C9C84500289D95 /* Stack.swift */,
+				DDA94C4320C9C85300289D95 /* Queue.swift */,
 				DDB9FD4620A4511200E3521E /* Main.storyboard */,
 				DDB9FD4920A4511200E3521E /* Assets.xcassets */,
 				DDB9FD4B20A4511200E3521E /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB9FD4520A4511200E3521E /* ViewController.swift in Sources */,
+				DDA94C4220C9C84500289D95 /* Stack.swift in Sources */,
 				DDB9FD4320A4511200E3521E /* AppDelegate.swift in Sources */,
+				DDA94C4420C9C85300289D95 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
