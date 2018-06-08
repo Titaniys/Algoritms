@@ -15,14 +15,24 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		print(eggDrop(2, 36))
+		let stack = Stack<Int>()
 		
-		navBar.topItem?.title = "retf"
-		navItem.title = "itemTitle"
+		stack.push(345)
+		stack.push(65)
 		
-		let array = [1,2,3,6,9,10,14,26,34,36,345,34345,40000,50000]
-		let index = self.binarySearch(array: array, searchElement: 340)
-		print(index)
+		print(stack.pop())
+		
+		
+		let queue = Queue<Int>()
+		
+		queue.Enqueue(134)
+		queue.Enqueue(456)
+		queue.Enqueue(4566)
+		
+		print(queue.Dequeue())
+		print(queue.Dequeue())
+		
+		
 	}
 
 	
