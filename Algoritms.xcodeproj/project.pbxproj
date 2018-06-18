@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7D43D420D4738000E0A3AF /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7D43D320D4738000E0A3AF /* GCD.swift */; };
+		DD7D43D620D475D500E0A3AF /* Fibbonaci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7D43D520D475D500E0A3AF /* Fibbonaci.swift */; };
+		DD7D43D820D4761700E0A3AF /* AnySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7D43D720D4761700E0A3AF /* AnySearch.swift */; };
+		DD7D43DA20D513CD00E0A3AF /* Palindrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7D43D920D513CD00E0A3AF /* Palindrom.swift */; };
+		DD7D43DC20D6A65300E0A3AF /* ReverseInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7D43DB20D6A65300E0A3AF /* ReverseInt.swift */; };
 		DDA94C4220C9C84500289D95 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA94C4120C9C84500289D95 /* Stack.swift */; };
 		DDA94C4420C9C85300289D95 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA94C4320C9C85300289D95 /* Queue.swift */; };
 		DDB9FD4320A4511200E3521E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9FD4220A4511200E3521E /* AppDelegate.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD7D43D320D4738000E0A3AF /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		DD7D43D520D475D500E0A3AF /* Fibbonaci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibbonaci.swift; sourceTree = "<group>"; };
+		DD7D43D720D4761700E0A3AF /* AnySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySearch.swift; sourceTree = "<group>"; };
+		DD7D43D920D513CD00E0A3AF /* Palindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrom.swift; sourceTree = "<group>"; };
+		DD7D43DB20D6A65300E0A3AF /* ReverseInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInt.swift; sourceTree = "<group>"; };
 		DDA94C4120C9C84500289D95 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		DDA94C4320C9C85300289D95 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		DDB9FD3F20A4511200E3521E /* Algoritms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algoritms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +72,11 @@
 				DDB9FD4420A4511200E3521E /* ViewController.swift */,
 				DDA94C4120C9C84500289D95 /* Stack.swift */,
 				DDA94C4320C9C85300289D95 /* Queue.swift */,
+				DD7D43D320D4738000E0A3AF /* GCD.swift */,
+				DD7D43D520D475D500E0A3AF /* Fibbonaci.swift */,
+				DD7D43D720D4761700E0A3AF /* AnySearch.swift */,
+				DD7D43D920D513CD00E0A3AF /* Palindrom.swift */,
+				DD7D43DB20D6A65300E0A3AF /* ReverseInt.swift */,
 				DDB9FD4620A4511200E3521E /* Main.storyboard */,
 				DDB9FD4920A4511200E3521E /* Assets.xcassets */,
 				DDB9FD4B20A4511200E3521E /* LaunchScreen.storyboard */,
@@ -142,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7D43DC20D6A65300E0A3AF /* ReverseInt.swift in Sources */,
+				DD7D43DA20D513CD00E0A3AF /* Palindrom.swift in Sources */,
 				DDB9FD4520A4511200E3521E /* ViewController.swift in Sources */,
+				DD7D43D620D475D500E0A3AF /* Fibbonaci.swift in Sources */,
 				DDA94C4220C9C84500289D95 /* Stack.swift in Sources */,
+				DD7D43D420D4738000E0A3AF /* GCD.swift in Sources */,
+				DD7D43D820D4761700E0A3AF /* AnySearch.swift in Sources */,
 				DDB9FD4320A4511200E3521E /* AppDelegate.swift in Sources */,
 				DDA94C4420C9C85300289D95 /* Queue.swift in Sources */,
 			);

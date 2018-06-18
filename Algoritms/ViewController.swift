@@ -15,23 +15,9 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let stack = Stack<Int>()
+		print(PalindromInt.isPalindromInt(12334543321))
 		
-		stack.push(345)
-		stack.push(65)
-		
-		print(stack.pop())
-		
-		
-		let queue = Queue<Int>()
-		
-		queue.Enqueue(134)
-		queue.Enqueue(456)
-		queue.Enqueue(4566)
-		
-		print(queue.Dequeue())
-		print(queue.Dequeue())
-		
+		print(ReverseInt.reverse(1534236469))
 		
 	}
 
@@ -145,45 +131,7 @@ class ViewController: UIViewController {
 		print(newStr)
 		print(str.pluralized())
 	}
-	
-	/// Асинхронная таска
-	func testURLSessionFunction()  {
-		
-		let url = URL(string: "https://www.apple.com")!
-		let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-			if let data = data,
-				let string = String(data: data, encoding: .utf8) {
-					print(string)
-			}
-		}
-		
-		task.resume()
-		
-	}
-	
-	
-	/// Бинарный поиск
-	///
-	/// - Parameters:
-	///   - array: упорядоченный массив интов
-	///   - searchIndex: искомый элемент
-	/// - Returns: найденый индекс или -1
-	func binarySearch(array: Array<Int>, searchElement: Int) -> Int {
-		var lo = 0
-		var hi = array.count - 1
-		
-		while lo <= hi {
-			let mid = lo + (hi - lo) / 2
-			if (searchElement < array[mid]) {
-				hi = mid - 1
-			} else if (searchElement > array[mid]) {
-				lo = mid + 1
-			} else {
-				return mid
-			}
-		}
-		return -1
-	}
+
 }
 
 
