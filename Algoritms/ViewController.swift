@@ -15,9 +15,9 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		print(PalindromInt.isPalindromInt(12334543321))
-		
-		print(ReverseInt.reverse(1534236469))
+		let nums = [2,5,5,11]
+		let target = 10
+		print(TwoSum.twoSum(nums, target))
 		
 	}
 
