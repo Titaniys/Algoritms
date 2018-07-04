@@ -19,6 +19,20 @@ class ViewController: UIViewController {
 		let target = 10
 		print(TwoSum.twoSum(nums, target))
 		
+//		print(ReverseString.reverseString("!pleh"))
+		
+		
+		
+		let sortClass = SortAlgoritms()
+		sortClass.example()
+		
+		let gcd = GCDObjective_c()
+		gcd.exampleTwo()
+		
+		let autoPool = AutoReleasePoolExample()
+		autoPool.example()
+		
+		
 	}
 
 	
