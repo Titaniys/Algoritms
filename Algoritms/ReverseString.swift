@@ -15,7 +15,7 @@ class ReverseString: NSObject {
 		guard str.count > 1 else {
 			return str
 		}
-		var arrayStr = Array(str)
+		let arrayStr = Array(str)
 		let maxIndex = arrayStr.count - 1
 		var reverseStr = [Character]()
 		
