@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D330A5E323FBF4C500C04717 /* SwapNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330A5E223FBF4C500C04717 /* SwapNodes.swift */; };
 		DD2343A320D807E30089BA29 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2343A220D807E30089BA29 /* LinkedList.swift */; };
 		DD2343A520D80CF60089BA29 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2343A420D80CF60089BA29 /* SymmetricTree.swift */; };
 		DD2343A720D8FC460089BA29 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2343A620D8FC450089BA29 /* ReverseString.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D330A5E223FBF4C500C04717 /* SwapNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodes.swift; sourceTree = "<group>"; };
 		DD2343A220D807E30089BA29 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		DD2343A420D80CF60089BA29 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		DD2343A620D8FC450089BA29 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				DD2343A220D807E30089BA29 /* LinkedList.swift */,
 				DD2343A420D80CF60089BA29 /* SymmetricTree.swift */,
 				DD2343A620D8FC450089BA29 /* ReverseString.swift */,
+				D330A5E223FBF4C500C04717 /* SwapNodes.swift */,
 				DD2343B620DBC15D0089BA29 /* SortAlgoritms.h */,
 				DD2343B720DBC15D0089BA29 /* SortAlgoritms.m */,
 				DD2343B920DC15BD0089BA29 /* GCDObjective-c.h */,
@@ -190,6 +193,7 @@
 				DD7D43DE20D7EB2200E0A3AF /* TwoSum.swift in Sources */,
 				DD7D43DC20D6A65300E0A3AF /* ReverseInt.swift in Sources */,
 				DD7D43DA20D513CD00E0A3AF /* Palindrom.swift in Sources */,
+				D330A5E323FBF4C500C04717 /* SwapNodes.swift in Sources */,
 				DD2343BE20DC1BE10089BA29 /* AutoReleasePoolExample.m in Sources */,
 				DD2343A520D80CF60089BA29 /* SymmetricTree.swift in Sources */,
 				DDB9FD4520A4511200E3521E /* ViewController.swift in Sources */,
@@ -345,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QDW9VYR6;
 				INFOPLIST_FILE = Algoritms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CV.Algoritms;
@@ -362,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37QDW9VYR6;
 				INFOPLIST_FILE = Algoritms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CV.Algoritms;

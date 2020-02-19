@@ -14,25 +14,16 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		let nums = [2,5,5,11]
-		let target = 10
-		print(TwoSum.twoSum(nums, target))
-		
-//		print(ReverseString.reverseString("!pleh"))
-		
-		
-		
-		let sortClass = SortAlgoritms()
-		sortClass.example()
-		
-		let gcd = GCDObjective_c()
-		gcd.exampleTwo()
-		
-		let autoPool = AutoReleasePoolExample()
-		autoPool.example()
-		
-		
+
+        let queue = TaleOfTwoStack()
+
+        queue.push(234)
+        queue.push(3)
+        queue.pop()
+        queue.peek()
+        queue.push(34)
+        queue.peek()
+
 	}
 
 	
@@ -46,7 +37,7 @@ class ViewController: UIViewController {
 		if string.count < 2 {
 			return true
 		}
-		let string = string.lowercased().filter{ $0 != " " }
+		let string = string.lowercased().filter { $0 != " " }
 
 		for (index, char) in string.enumerated() {
 			
