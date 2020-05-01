@@ -28,7 +28,7 @@ final class TaleOfTwoStack {
         leftStack.append(element)
     }
 
-func pop() {
+    func pop() {
         if rightStack.isEmpty {
             rightStack.append(contentsOf: leftStack.reversed())
             leftStack.removeAll()
