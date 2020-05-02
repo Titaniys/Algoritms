@@ -12,7 +12,7 @@ class AnySearch: NSObject {
 
 }
 
-class BinarySerch: NSObject {
+class BinarySerch {
 	
 	/// Бинарный поиск
 	///

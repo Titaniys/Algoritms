@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D330A5E323FBF4C500C04717 /* SwapNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D330A5E223FBF4C500C04717 /* SwapNodes.swift */; };
+		D39A0777245D565E006E5DA8 /* JewelsAndStones2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0776245D565E006E5DA8 /* JewelsAndStones2.swift */; };
+		D3AE409C245C5216008C37D7 /* IsBadVersion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE409B245C5216008C37D7 /* IsBadVersion1.swift */; };
 		D3B64611245C3DA70018EB1A /* FunctionalExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B64610245C3DA70018EB1A /* FunctionalExamples.swift */; };
 		D3B64613245C3E170018EB1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D3B64612245C3E170018EB1A /* README.md */; };
 		DD2343A320D807E30089BA29 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2343A220D807E30089BA29 /* LinkedList.swift */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		D330A5E223FBF4C500C04717 /* SwapNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapNodes.swift; sourceTree = "<group>"; };
+		D39A0776245D565E006E5DA8 /* JewelsAndStones2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStones2.swift; sourceTree = "<group>"; };
+		D3AE409B245C5216008C37D7 /* IsBadVersion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBadVersion1.swift; sourceTree = "<group>"; };
 		D3B64610245C3DA70018EB1A /* FunctionalExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalExamples.swift; sourceTree = "<group>"; };
 		D3B64612245C3E170018EB1A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD2343A220D807E30089BA29 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -73,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3AE409A245C51E9008C37D7 /* May Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE409B245C5216008C37D7 /* IsBadVersion1.swift */,
+				D39A0776245D565E006E5DA8 /* JewelsAndStones2.swift */,
+			);
+			path = "May Challenge";
+			sourceTree = "<group>";
+		};
 		DDB9FD3620A4511200E3521E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,7 @@
 		DDB9FD4120A4511200E3521E /* Algoritms */ = {
 			isa = PBXGroup;
 			children = (
+				D3AE409A245C51E9008C37D7 /* May Challenge */,
 				DDB9FD4220A4511200E3521E /* AppDelegate.swift */,
 				D3B64610245C3DA70018EB1A /* FunctionalExamples.swift */,
 				DDB9FD4420A4511200E3521E /* ViewController.swift */,
@@ -203,6 +217,7 @@
 				D3B64611245C3DA70018EB1A /* FunctionalExamples.swift in Sources */,
 				D330A5E323FBF4C500C04717 /* SwapNodes.swift in Sources */,
 				DD2343BE20DC1BE10089BA29 /* AutoReleasePoolExample.m in Sources */,
+				D3AE409C245C5216008C37D7 /* IsBadVersion1.swift in Sources */,
 				DD2343A520D80CF60089BA29 /* SymmetricTree.swift in Sources */,
 				DDB9FD4520A4511200E3521E /* ViewController.swift in Sources */,
 				DD2343BB20DC15BD0089BA29 /* GCDObjective-c.m in Sources */,
@@ -212,6 +227,7 @@
 				DD7D43D420D4738000E0A3AF /* GCD.swift in Sources */,
 				DD2343A720D8FC460089BA29 /* ReverseString.swift in Sources */,
 				DD7D43D820D4761700E0A3AF /* AnySearch.swift in Sources */,
+				D39A0777245D565E006E5DA8 /* JewelsAndStones2.swift in Sources */,
 				DDB9FD4320A4511200E3521E /* AppDelegate.swift in Sources */,
 				DD2343A320D807E30089BA29 /* LinkedList.swift in Sources */,
 				DDA94C4420C9C85300289D95 /* Queue.swift in Sources */,

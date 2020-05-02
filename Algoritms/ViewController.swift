@@ -14,15 +14,11 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        let J = "aA"
+        let S = "aAAbbbb"
 
-        let queue = TaleOfTwoStack()
-
-        queue.push(234)
-        queue.push(3)
-        queue.pop()
-        queue.peek()
-        queue.push(34)
-        queue.peek()
+        let test = JewelsAndStones2()
+        print(test.numJewelsInStones(J, S))
 
 	}
 
